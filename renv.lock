@@ -614,6 +614,7 @@
         "evaluate",
         "fontawesome",
         "htmltools",
+        "jquerylib",
         "jsonlite",
         "knitr",
         "methods",
@@ -624,7 +625,7 @@
         "xfun",
         "yaml"
       ],
-      "Hash": "43f3ca7e8a4dce2e72dd8a0e2087514c"
+      "Hash": "d65e35823c817f09f4de424fcdfa812a"
     },
     "rsample": {
       "Package": "rsample",
