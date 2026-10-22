@@ -55,9 +55,9 @@ library(knitr)
 set.seed(42)
 
 read_nhanes <- function(suffix, period) {
-  demo <- read_XPT(paste0("data/DEMO_", suffix, ".XPT"))
-  bmx  <- read_XPT(paste0("data/BMX_", suffix, ".XPT"))
-  diq  <- read_XPT(paste0("data/DIQ_", suffix, ".XPT"))
+  demo <- read_xpt(paste0("data/DEMO_", suffix, ".XPT"))
+  bmx  <- read_xpt(paste0("data/BMX_", suffix, ".XPT"))
+  diq  <- read_xpt(paste0("data/DIQ_", suffix, ".XPT"))
 
   demo |>
     select(SEQN, RIDAGEYR, RIAGENDR) |>
